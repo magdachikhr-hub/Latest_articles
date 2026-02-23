@@ -7,6 +7,22 @@
   font-family: "Radio Canada Big", sans-serif;
 }
 
+header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(248, 247, 247);
+  border-bottom: 1px solid black;
+}
+header li {
+  list-style: none;
+}
+header li a {
+  text-decoration: none;
+  color: #000000;
+}
+
 main {
   height: 100vh;
   background-color: rgb(248, 247, 247);
@@ -66,6 +82,7 @@ main div.container div.text h3 {
   main div.container div.text p.data {
     margin: 56px 0;
     font-size: 32px;
+    width: 310px;
   }
   main div.container div.text p.gray {
     font-size: 20px;
