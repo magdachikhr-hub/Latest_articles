@@ -1,4 +1,5 @@
 $card_background_color: #f6f8fb;
+$black: #000000;
 
 * {
   padding: 0;
@@ -9,6 +10,16 @@ $card_background_color: #f6f8fb;
 @mixin display-direction {
   display: flex;
   flex-direction: column;
+}
+
+header {
+  li {
+    list-style: none;
+    a {
+      text-decoration: none;
+      color: $black;
+    }
+  }
 }
 
 main {
